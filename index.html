@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controle">
+                        <tr>
+                            <td><label class="login-label">Email or phone</label></td>
+                            <td><label class="login-label">password</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                                
+                            </td>
+                            <td><input type="text"></td>
+                            <td><input class="sub-btn" type="submit" value="login"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a><label class="forgotten-label">Forgotten account?</label></a></td>
+                        </tr>
+                    </table>
+
+                </form>
+
+            </div>
+
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the people in <br>your life.</p>
+                <img  class="fb-image" src="fb.webp" alt="fb image">
+
+            </div>
+            <div class="right section">
+                <h1 class="heading">Create an account</h1>
+                <p>It's quick and easy.</p>
+                <form class="signup" id="sign-up-form" action="index2.html">
+                    <table>
+                        <tr>
+                            
+                                <input name="fname" class="first-name" type="text" placeholder="First name">
+                            
+                            
+                                <input name="sname" class="surname" type="text" placeholder="Surname">
+                            
+                        </tr>
+                        <tr >
+                            <td class="mob-num-row">
+                                <input type="text" class="mob-number" placeholder="Mobile number or email address" name="emailaddress">
+                            </td>
+                        </tr>
+                        <tr class="new-pass-row">
+                            <td>
+                                <input class="new-pass" type="text" placeholder="New password" name="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="birthday"><label >Birthday</label></td>
+
+                        </tr>
+                        <tr>
+                            <td class="date">
+                                <input type="date" name="birthday" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gender">
+                                <label>Gender</label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                                <input type="radio" id="custom" name="gender" value="custom">
+                                <label for="custom">custom</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="privacy-policy">
+                                <p>By clicking Sign up,you agree to our<br> Terms.Data policy and cookie policy.<br>You may recive SMS notifications <br>from us 
+                                    and can opt out any time.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td >
+                                <input  class="sign-up-btn" type="submit" value="Sign Up">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script> 
+    <script src="script.js"></script> 
+</body>
+</html>
